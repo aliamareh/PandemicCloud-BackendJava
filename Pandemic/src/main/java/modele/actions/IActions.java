@@ -1,0 +1,11 @@
+package modele.actions;
+
+import modele.Partie;
+import modele.actions.actionsRole.exceptions.*;
+import modele.actions.exceptions.*;
+import modele.exceptions.*;
+
+public interface IActions {
+    void executerAction(Partie p) throws NombreDeStationsDeRecherches6AtteindsException, NombreDeStationsDeRecherchesMaxDépasséException, StationRechercheExisteException, PlusDeCubesMaladieDisponible, PartieNonDemarreeException, PartieTermineeException, MaladiesNonIntialiseesException, MaladieEradiqueException, VilleNonTrouveeException, RolePasExpertAuxOperationsException, VillePasAssezDeMaladieException, VilleSansCetteMaladieException, CarteVilleNonPossedeException, VillePasVoisineException, VilleSansStationDeRechercheException, NombresDeCartesMaxAtteindsException, PartageConnaissancesException, RolePasMedecinException, CarteIntrouvableException, PlanificateurUrgenceCarteDejaPriseException, RolePasPlanificateurUrgenceException;
+
+}

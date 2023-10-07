@@ -1,0 +1,53 @@
+POST http://localhost:8080/pandemic/inscription
+Content-Type: application/json
+
+{ "pseudo": "test4",
+  "password": "test"
+}
+
+> {%
+proxyClient.global.set("tokenJ1", response.headers.valueOf("Authorization"));
+%}
+
+###
+POST http://localhost:8080/pandemic/inscription
+Content-Type: application/json
+
+{ "pseudo": "test2",
+  "password": "test"
+}
+
+> {%
+proxyClient.global.set("tokenJ2", response.headers.valueOf("Authorization"));
+%}
+
+###
+POST http://localhost:8080/pandemic/partie/create
+Content-Type: application/x-www-form-urlencoded
+Authorization: {{tokenJ1}}
+
+nbJoueurs=2
+
+> {%
+proxyClient.global.set("idPartie", response.body.idPartie);
+%}
+
+###
+POST http://localhost:8080/pandemic/partie/{{idPartie}}/join
+Content-Type: application/x-www-form-urlencoded
+Authorization: {{tokenJ1}}
+
+###
+POST http://localhost:8080/pandemic/partie/{{idPartie}}/join
+Content-Type: application/x-www-form-urlencoded
+Authorization: {{tokenJ2}}
+
+###
+POST http://localhost:8080/pandemic/partie/{{idPartie}}/start
+Content-Type: application/x-www-form-urlencoded
+Authorization: {{tokenJ1}}
+
+###
+GET http://localhost:8080/pandemic/partie/{{idPartie}}
+Content-Type: application/x-www-form-urlencoded
+Authorization: {{tokenJ1}}

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="076e842b-eec6-40d4-8d2d-387fbc06057e" name="Changes" comment="fix erreur test Partage connaissance ?" />
+=======
+    <list default="true" id="076e842b-eec6-40d4-8d2d-387fbc06057e" name="Changes" comment="fix erreurs et ajout des actions roles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> f9f6321d068d8d0903b80d5bb151143671039109
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2J33etgP9XQ37P5mTYHwUo1vu0P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaClassFindUsagesOptions.isDerivedClasses&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isFieldsUsages&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chadhoulinizar/Desktop/projet-pandemic-7/Pandemic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modele.exceptions" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="modele" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="modele" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestPartieEtActionsEtRolesEtEvenements">
+    <configuration name="TestFacadePandemicImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PandemicWS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.projetpandemic.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.projetpandemic.modele" />
+      <option name="MAIN_CLASS_NAME" value="org.projetpandemic.modele.TestFacadePandemicImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPartieEtActionsEtRolesEtEvenements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pandemic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.projetpandemic.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modele" />
+      <option name="MAIN_CLASS_NAME" value="modele.TestPartieEtActionsEtRolesEtEvenements" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPartieEtActionsEtRolesEtEvenements.testActionDecouvrirRemedeOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pandemic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.projetpandemic.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modele" />
+      <option name="MAIN_CLASS_NAME" value="modele.TestPartieEtActionsEtRolesEtEvenements" />
+      <option name="METHOD_NAME" value="testActionDecouvrirRemedeOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPartieEtActionsEtRolesEtEvenements.testJoueurActionRoleMedecinKO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pandemic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.projetpandemic.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modele" />
+      <option name="MAIN_CLASS_NAME" value="modele.TestPartieEtActionsEtRolesEtEvenements" />
+      <option name="METHOD_NAME" value="testJoueurActionRoleMedecinKO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlateau" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pandemic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.projetpandemic.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modele" />
+      <option name="MAIN_CLASS_NAME" value="modele.TestPlateau" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPartieEtActionsEtRolesEtEvenements" />
+        <item itemvalue="JUnit.TestPartieEtActionsEtRolesEtEvenements.testActionDecouvrirRemedeOK" />
+        <item itemvalue="JUnit.TestPartieEtActionsEtRolesEtEvenements.testJoueurActionRoleMedecinKO" />
+        <item itemvalue="JUnit.TestFacadePandemicImpl" />
+        <item itemvalue="JUnit.TestPlateau" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="076e842b-eec6-40d4-8d2d-387fbc06057e" name="Changes" comment="" />
+      <created>1671293052984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671293052984</updated>
+      <workItem from="1671293062537" duration="1755000" />
+      <workItem from="1671297896178" duration="2606000" />
+      <workItem from="1671352073683" duration="32040000" />
+      <workItem from="1671629679850" duration="29000" />
+      <workItem from="1676275872900" duration="7300000" />
+      <workItem from="1676363650678" duration="3107000" />
+      <workItem from="1676450191110" duration="6560000" />
+      <workItem from="1676536581434" duration="5728000" />
+      <workItem from="1676622269182" duration="10321000" />
+      <workItem from="1676883804326" duration="2416000" />
+      <workItem from="1681975679403" duration="23000" />
+      <workItem from="1681977564348" duration="138000" />
+      <workItem from="1681978711999" duration="118000" />
+      <workItem from="1681979488658" duration="2564000" />
+      <workItem from="1681983887096" duration="1185000" />
+      <workItem from="1682059721983" duration="5396000" />
+      <workItem from="1682410571012" duration="769000" />
+      <workItem from="1682417794333" duration="2119000" />
+      <workItem from="1682583981101" duration="1365000" />
+      <workItem from="1682594266329" duration="1047000" />
+      <workItem from="1682670682904" duration="9398000" />
+<<<<<<< HEAD
+      <workItem from="1682927701190" duration="1749000" />
+      <workItem from="1683980487987" duration="10000" />
+=======
+      <workItem from="1683975742692" duration="591000" />
+>>>>>>> f9f6321d068d8d0903b80d5bb151143671039109
+    </task>
+    <task id="LOCAL-00001" summary="Méthode updatePartie() lié à la BDD pour garder un historique des parties + maj readme mongo.">
+      <created>1671372862695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671372862695</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Erreur commit">
+      <created>1671373581831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671373581831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix imports">
+      <created>1671375904296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671375904296</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix implem bibdonneesmongo et retirer nv difficulté et changement constructeur partie.">
+      <created>1671378899978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671378899979</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix test action voiture et méthode inexistante nvdifficulté">
+      <created>1671379060399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671379060399</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix erreur test Partage connaissance ?">
+      <created>1671385981322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671385981322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Méthode updatePartie() lié à la BDD pour garder un historique des parties + maj readme mongo." />
+    <MESSAGE value="Merge" />
+    <MESSAGE value="Erreur commit" />
+    <MESSAGE value="fix imports" />
+    <MESSAGE value="fix implem bibdonneesmongo et retirer nv difficulté et changement constructeur partie." />
+    <MESSAGE value="fix test action voiture et méthode inexistante nvdifficulté" />
+    <MESSAGE value="fix erreur test Partage connaissance ?" />
+    <MESSAGE value="partietermineedto fait et appliqué + fix des tests de prévision phase 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="partietermineedto fait et appliqué + fix des tests de prévision phase 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="modele.Ville" memberName="aEclos" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
