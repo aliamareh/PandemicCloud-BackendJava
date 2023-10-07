@@ -7,7 +7,7 @@ services:
     ports:
       - "8080:8080"  
     environment:
-      Database_URL: mongodb+srv://Ali:Groupe7ProjetInfra@clusterprojetinfra.hkin23h.mongodb.net/?retryWrites=true&w=majority
+      Database_URL: mongodb+srv://Ali:Groupe5BDD@clusterprojetinfra.hkin23h.mongodb.net/?retryWrites=true&w=majority
       Database: pandemic
       
       
