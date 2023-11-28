@@ -18,7 +18,7 @@ import java.util.*;
 public class BibDonneesMongoDB {
 
     private static final String SERVEURPORT = System.getenv("Database_URL");
-    private static final String DATABASE = System.getenv("Database");;
+    private static final String DATABASE = System.getenv("Database");
     private static final String VILLES = "villes";
     private static final String MALADIES = "maladies";
 
